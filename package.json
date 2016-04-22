@@ -1,6 +1,21 @@
 {
   "name": "superheroApp",
+  "version": "1.0.0",
+  "description": "Superhero MEAN Stack App",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonyaMoisset/superheroes.git"
+  },
+  "author": "Sonya Moisset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SonyaMoisset/superheroes/issues"
+  },
+  "homepage": "https://github.com/SonyaMoisset/superheroes#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "dotenv": "^2.0.0",
