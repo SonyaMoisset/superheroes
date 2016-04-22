@@ -10,7 +10,7 @@ var superhero = require('./app/routes/superhero')();
 
 var options = { server: { socketOptions: { keepAlive: 1, connectTimeoutMS: 30000 } },
                 replset: { socketOptions: { keepAlive: 1, connectTimeoutMS : 30000 } } };
-mongoose.connect('process.env.MONGO_URI', options);
+mongoose.connect('process.env.MONGO_URL', options);
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
