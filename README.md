@@ -1,1 +1,1 @@
-# superheroes
+# MEAN Stack Superheroes App
