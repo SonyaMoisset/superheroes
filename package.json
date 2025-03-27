@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SonyaMoisset/superheroes#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^2.0.0",
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "mongoose": "^8.0.0",
